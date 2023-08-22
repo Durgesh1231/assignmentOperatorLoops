@@ -1,0 +1,107 @@
+Ans 1.
+
+The conditional operator is also known as the ternary operator. This operator consists of three operands and is used 
+to evaluate Boolean expressions. The goal of the operator is to decide; which value should be assigned to the variable.
+
+Ans 2.
+
+There are three types of operators based on the number of operands. An operator is called a 
+unary, binary, or ternary operator based on the number of operands. If an operator takes one operand, 
+it is called a unary operator; if it takes two operands, it is called a binary operator;
+if it takes three operands, it is called a ternary operator.
+
+Ans 3.
+The switch statement is a multi-way branch statement. In simple words, the Java switch statement executes one statement 
+from multiple conditions. It is like an if-else-if ladder statement. It provides an easy way to dispatch execution to 
+different parts of code based on the value of the expression.
+
+Ans 4.
+There are two important points to note when using Java operators: Multiplication, division, and modulo operations have precedence 
+over addition and subtraction operations. Plus and minus operators have the same precedence. 
+Operators with the same precedence are evaluated from left to right.
+
+eg +,-,*,/,%   precedence order is left to right.
+
+Ans 5.
+1.Become familiar with the idea of a conditional statement and know how to create a program containing optional operations 
+  through the use of conditional statements.
+
+2.Become familiar with comparison and logical operators commonly used in conditional statements.
+
+3.Know how to compare both numbers and strings, remembering the equals-command for strings.
+
+4.Become familiar with the order of execution for a conditional statement, and know that the parsing of a conditional
+  statement stops at the first condition whose statement evaluates to true.
+
+Ans 6.
+
+if(condition){
+  /// code (if the code is true the run the if block)
+  }
+ else{
+   //code
+ }
+
+Ans 7.
+
+Java provides three types of iteration statements:
+
+1.for statements-:The for statement is used in the case of sequential traversal. Whenever we are aware of when to start 
+the iteration and when to end it, we go for the for loop. The syntax of the for loop is very simple. 
+
+2.while statements-:The while loop is a very common type of loop found in Java. We use a while loop mainly in cases where 
+we do not have the exact idea when our iteration has to be stopped. Based on the condition provided, the while loop executes 
+the statements inside the loop until the condition is true. Once the condition is false, the loop breaks, and the control comes out of the loop.
+
+3.do-while statements-:The only difference between the do-while loop and the normal while loop is that the while loop checks 
+the condition first and only if the condition evaluates to true then the control enters the body of the loop, whereas 
+the do-while loop executes at least once and then checks the condition. Now it behaves similar to the while loop.
+
+Ans 8.
+
+1.Loops-:Whenever we want to access each element in an array, we can simply use a loop to iterate over the array and access each element.
+Trying to access each element by indexing would take hours if the array size is significantly large. Using loops, this can be done in seconds.
+
+2.do-while statements-:The only difference between the do-while loop and the normal while loop is that the while loop checks 
+the condition first and only if the condition evaluates to true then the control enters the body of the loop, whereas 
+the do-while loop executes at least once and then checks the condition. Now it behaves similar to the while loop.
+
+
+Ans 9.
+
+public class assignmentOpratorLoops {
+
+public static void main(String[] args) {
+	for (int i=1; i<=100;i++) {
+	     System.out.println(i);
+    }
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
